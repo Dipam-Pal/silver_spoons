@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spline+Sans:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#777;
+    line-height:1.7;
+}
+.navbar-brand p{
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:4px;
+}
+.navbar-brand a{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600px;
+    color:#222;
+}
+.navbar-nav a{
+  text-decoration:none;
+  color:#222;
+  font-size: larger;
+  transition:all 0.4s;
+}
+.navbar-nav a:hover{
+    color: coral;
+    border:solid 1px black;
+}
+.navbar-brand img{
+    height:50px;
+    width:100px;
+}
+.btn{
+    border-radius:0;
+    margin-top:2px;
+}
+.btn-brand{
+    color: white;
+    font-weight:500;
+    border-color:#f58d17;
+    background-color: #f58d17;
+    border-radius:25px;
+}
+.btn-brand:hover{
+    background-color: #f58d09;
+    border:solid 1px black;
+}
+.slider-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(./images/image2.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .slider-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/image1.avif);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
+
+  .carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color:rgba(144, 215, 221, 0.625);
+    width:40px;
+    height:70px;
+    margin: auto;
+  }
+
+.about{
+    padding-top:120px;
+    padding-bottom:120px;
+}
+.about .divider{
+    width:90px;
+    height:3px;
+    display:block;
+    background-color:crimson
+}
+.intro-text{
+    margin-bottom:20px;
+    text-align:center;
+}
+.intro-text p{
+    max-width:500px;
+    margin:16px auto 0 auto;
+}
+/* MENU SECTION */
+#Menu .nav-pills .nav-link{
+    background-color:white;
+    margin-left:8px;
+    margin-right:8px;
+    color:#222;
+    border-radius:100px;
+    box-shadow:0 10px 40px rgba(0, 0, 0, 0.3);
+    
+}
+#Menu .nav-pills .nav-link.active{
+    background-color:#f58d09;
+    color: white;
+}
+.menu-iteam img{
+    width: 100%;
+    height:150px;
+    
+}
+
+.card-hover {
+    transition: box-shadow all 0.4s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card-hover:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
+  }
+ 
+  #Features{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/image1.avif);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px; 
+    padding: 50px 0; 
+  }
+  .feature{
+    border:2px solid rgba(255,255,255,0.2);
+  }
+  .feature:hover{
+    border:3px solid #f58d09;
+  }
+   .feature .feature-icon{
+    background-color:#f58d17;
+    height:70px ;
+    width:70px;
+    color:white;
+    display:inline-grid;
+    align-content: center;
+    text-align: center;
+   }
+ #Team{ min-height: 600px; 
+    padding: 50px 0; 
+
+    }
+   .team-members img{
+    max-width:300px;
+   }
+   /* Reviws */
+   #review{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(./images/resturent1.webp);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px; 
+    padding: 50px 0; 
+   }
+  #review .container {
+    height: 100%;  
+  }
+  #review .carousel-item {
+    min-height: 300px; 
+  }
+  
+  .quote-icon i{
+    font-size: 30px;
+   color: #f58d09;
+  }
+
+  /* reservation */
+
+  #Reservation .form-control{
+    border-radius:0;
+  }
+
+  /* footer */
+  .footer-top a{
+    height:50px;
+    width:100px;
+  }
+  .footer-top{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/resturent1.webp);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px; 
+    padding: 50px 0; 
+  }
+ .social-links i{
+  color: #f58d09;
+  font-weight: normal;
+  font-size:24px;
+ }
+ footer p{
+  color: white;
+ }
+ footer a{
+  text-decoration: none;
+  color: #f58d09;
+  
+ }
+
+ /* new edit */
+ .menu-item{
+  overflow:hidden;
+  justify-content: center;
+ }
+ 
+ .nav-pills {
+  display: flex;
+  justify-content: space-between; 
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-pills {
+      flex-direction: column;
+      align-items: stretch;
+  }
+  .nav-pills .nav-item {
+    width: 100%; 
+    margin-bottom: 10px;
+}
+.nav-link {
+    width: 100%; 
+    padding: 12px; 
+    text-align: center; 
+    font-size: 16px; 
+}
+.nav-link {
+padding: 10px 20px;
+font-size: 16px;
+}
